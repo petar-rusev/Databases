@@ -1,0 +1,17 @@
+SQL is relational database management system.
+SQL is short for Structured Query Language.
+SQL supports distributed databases, offering users great flexibility.
+Users can create and delete databases, as well as set permissions on database tables, views and procedures. 
+It also allows users to manipulate the data within a database.
+
+In SQL, there are two main sets of commands that are used to create and modify databases. 
+These are the Data Definition Language and the Data Manipulation Language
+
+SQL language is divided into several elements: clauses, expressions, predicates, queries and statements. 
+SQL queries are the most essential and common SQL operations. 
+SQL query helps users retrieve needed data from a database, and it is executed using the ‘Select’ statement.
+
+SELECT  FirstName, LastName, City 
+WHERE City = 'London'
+
+Will return firstName, larstName and city of people who leaves in “London”

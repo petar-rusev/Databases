@@ -1,0 +1,8 @@
+Types relationships are One-to-many (or many-to-one),Many-to-many, One-to-one.
+Relationship one-to-many – used often.
+Single record in one table has many corresponding records in the other table.
+Relationship many-to-many
+Records in the one table have many corresponding records in the other table and vice versa
+Relationship one-to-one
+A single record in one table corresponds to a single record in the other table
+Used to model inheritance between tables

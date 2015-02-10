@@ -1,0 +1,23 @@
+Normalization of the relational schema removes repeating data
+Normalization has four normal  forms.
+1) Data is stored in tables
+Fields in the rows are atomic  values
+There are no repetitions within a single row
+A primary key is defined for each table
+2) Retains all requirements of 1-st Normal Form 
+There are no columns that do not depend on part of the primary key (if it consists of several columns)
+3) Retains all requirements of 2-nd Normal Form
+The only dependencies between columns are of type "a column depends on the PK"
+4) Retains all requirements of 3-rd Normal Form
+There is one column at most in each table that can have many possible values for a single key 
+
+Advantages of normalized are:
+Searching, sorting, and creating indexes is faster, since tables are narrower, and more rows fit on a data page.
+You can have more clustered indexes (one per table), so you get more flexibility in tuning queries.
+More tables allow better use of segments to control physical placement of data.
+You usually have fewer indexes per table, so data modification commands are faster.
+Fewer null values and less redundant data, making your database more compact.
+Triggers execute more quickly if you are not maintaining redundant data.
+Data modification anomalies are reduced.
+Normalization is conceptually cleaner and easier to maintain and change as your needs change.
+

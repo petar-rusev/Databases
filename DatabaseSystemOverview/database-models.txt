@@ -1,0 +1,33 @@
+inverted file model
+relational model
+dimensional model
+post-relational model
+graph model
+multivalue model
+object model
+object-relational model
+
+An object-relational database (ORD), or object-relational database management system (ORDBMS), is a database management system (DBMS) 
+similar to a relational database, but with an object-oriented database model: objects, classes and inheritance are directly supported 
+in database schemas and in the query language. In addition, just as with pure relational systems, it supports extension of the data model 
+with custom data-types and methods.
+
+An object-relational database can be said to provide a middle ground between relational databases and object-oriented databases (OODBMS). 
+In object-relational databases, the approach is essentially that of relational databases: the data resides in the database and is 
+manipulated collectively with queries in a query language; at the other extreme are OODBMSes in which the database is essentially 
+a persistent object store for software written in an object-oriented programming language, with a programming API for storing and 
+retrieving objects, and little or no specific support for querying.
+
+The basic goal for the Object-relational database is to bridge the gap between relational databases and the object-oriented modeling techniques used 
+in programming languages such as Java, C++, Visual Basic .NET or C#. However, a more popular alternative for achieving such a bridge is to use a standard 
+relational database systems with some form of Object-relational mapping (ORM) software. Whereas traditional RDBMS or SQL-DBMS products focused on the 
+efficient management of data drawn from a limited set of data-types (defined by the relevant language standards), an object-relational DBMS allows 
+software developers to integrate their own types and the methods that apply to them into the DBMS.
+
+The ORDBMS (like ODBMS or OODBMS) is integrated with an object-oriented programming language. The characteristic properties of ORDBMS are 1) complex data,
+2) type inheritance, and 3) object behavior. Complex data creation in most SQL ORDBMSs is based on preliminary schema definition via the user-defined 
+type (UDT). Hierarchy within structured complex data offers an additional property, type inheritance. That is, a structured type can have subtypes that reuse 
+all of its attributes and contain additional attributes specific to the subtype. Another advantage, the object behavior, is related with access to the program objects. 
+Such program objects must be storable and transportable for database processing, therefore they usually are named as persistent objects. Inside a database, 
+all the relations with a persistent program object are relations with its object identifier (OID). All of these points can be addressed in a proper relational 
+system, although the SQL standard and its implementations impose arbitrary restrictions and 

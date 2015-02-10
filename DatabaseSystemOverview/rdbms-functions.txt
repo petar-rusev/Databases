@@ -1,0 +1,9 @@
+ An RDBMS is a DBMS which manages a relational database. A relational database stores data in tables. Tables are organized
+ into columns, and each column stores one type of data (integer, real number, character strings, date, …).  The data for a single 
+ “instance” of a table is stored as a row.  For example, the Customer table would have columns such as CustomerNumber, FirstName, and Surname, 
+ and a row within that table would be something like {1701, “James”, “Kirk”}.
+ 
+ The most common use of RDBMSs is to implement simple CRUD – Create, Read, Update, and Delete – functionality.  For example an application could
+ create a new order and insert it into your database. It could read an existing order, work with the data, and then update the database with the new information. 
+ It could also choose to delete an existing order, perhaps because the customer has cancelled it.  The vast majority of your interaction with an RDB will 
+ likely be to implement basic CRUD functionality.
